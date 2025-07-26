@@ -24,6 +24,6 @@ stages:
 
     - task: PublishBuildArtifacts@1
       inputs:
-      PathtoPublish: '$(System.DefaultWorkingDirectory)/kube-manifests'
-      ArtifactName: 'kube-manifests'
-      publishLocation: 'Container'          
+        PathtoPublish: '$(System.DefaultWorkingDirectory)/kube-manifests'
+        ArtifactName: 'kube-manifests'
+        publishLocation: 'Container'          
